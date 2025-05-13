@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "exoplanet archive for my term 2 project",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rach8el/exoplanet_archive.git"
+  },
+  "author": "Rachael Hooker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rach8el/exoplanet_archive/issues"
+  },
+  "homepage": "https://github.com/rach8el/exoplanet_archive#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9",
+    "pg": "^8.14.1"
+  }
+}
