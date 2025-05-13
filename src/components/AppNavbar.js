@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 
 const AppNavbar = () => {
     return (
-        <Navbar bg="primary" variant="dark" expand="lg">
+        <Navbar style={{ backgroundColor: '#5D3FD3' }} variant="dark" expand="lg">
             <Container>
                 <Navbar.Brand as ={Link} to="/">NASA's Exoplanet Data</Navbar.Brand>
                 <Navbar.Collapse id="basic-navbar-nav">

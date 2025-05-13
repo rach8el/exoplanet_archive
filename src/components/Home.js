@@ -20,7 +20,7 @@ function Home() {
         fontSize: '25px',
         textAlign: 'left',
         position: 'fixed',
-        right: 17,
+        left: 30,
       }}>
         <b>Welcome</b> to NASAs Exoplanet Archive! This is an interactive web application designed to organize the exoplanets in <b>NASA’s own archive!</b>
       </div>
@@ -38,7 +38,7 @@ function Home() {
         fontSize: '25px',
         textAlign: 'right',
         position: 'fixed',
-        left: 150,
+        left: 190,
         bottom: 110,
       }}>
         Using this application, you can find out information about all exoplanets NASA has collected data on, whether it be the name or mass of a planet!

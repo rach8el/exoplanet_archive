@@ -7,8 +7,7 @@ import PlanetOrbitalPeriod from './PlanetOrbitalPeriod';
 import PlanetMass from './PlanetMass';
 import AboutMe from './AboutMe';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useRef } from 'react';
-import { Bar } from 'react-chartjs-2';
+
 
 
 const App = () => {
