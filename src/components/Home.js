@@ -6,10 +6,10 @@ function Home() {
   const [open, setOpen] = useState(false);
   return (
     <div>
-      <div style={{ fontSize: '50px', 
+      <div style={{ fontSize: '45px', 
       textAlign: 'left',
       position: 'relative',
-      left: '50',
+      left: '0',
        }}>
         Welcome!
       </div>
@@ -25,7 +25,7 @@ function Home() {
         <b>Welcome</b> to NASAs Exoplanet Archive! This is an interactive web application designed to organize the exoplanets in <b>NASA’s own archive!</b>
       </div>
       <div style={{
-        fontSize: '50px',
+        fontSize: '45px',
         textAlign: 'justify',
         position: 'fixed',
         left: 10,

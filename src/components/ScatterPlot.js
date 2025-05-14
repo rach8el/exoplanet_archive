@@ -24,7 +24,7 @@ function ScatterPlot() {
             {
                 label: 'Planet Mass',
                 data: [
-                    { x: '11 UMi b', y: 4684.8 },
+                    {x: '11 UMi b', y: 4684.8 },
                     {x: '17 Sco b', y: 1373.0 }, 
                     {x: ' 91 Aqr b', y:1017.0}, 
                     {x: 'COCONUTS-2b', y: 2002.3},
@@ -34,6 +34,13 @@ function ScatterPlot() {
                     {x: 'HD220689b', y:381.39}
                 ],
                backgroundColor: 'rgba(255, 255, 255)',
+               pointBackgroundColor: [
+                'rgba(209, 130, 195)',
+                'rgba(209, 130, 151)',
+                'rgba(130, 165, 209)',
+                'rgba(130, 209, 172)'
+               ],
+               pointRadius: 5,
             },
         ],
         
@@ -41,9 +48,17 @@ function ScatterPlot() {
     const options = {
         scales: {
             x: {
-                type: 'category'
+                type: 'category',
+                title: {display: true, text: 'Planet Name'},
+            },
+            y: {
+                type: 'linear',
+                title: {display: true, text: 'Mass'},
             }
         }
     }
-}
+        return <Scatter data={data} options={options} />;
+    }
 
+
+export default ScatterPlot;
