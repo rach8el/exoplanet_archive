@@ -22,10 +22,10 @@ function Home() {
         position: 'fixed',
         left: 30,
       }}>
-        <b>Welcome</b> to NASAs Exoplanet Archive! This is an interactive web application designed to organize the exoplanets in <b>NASA’s own archive!</b>
+        <b>Welcome</b> to Exoplanet Archive! This is an interactive web application designed to organize the data in <b>NASA’s own exoplanet archive!</b>
       </div>
       <div style={{
-        fontSize: '45px',
+        fontSize: '40px',
         textAlign: 'justify',
         position: 'fixed',
         left: 10,
@@ -38,10 +38,10 @@ function Home() {
         fontSize: '25px',
         textAlign: 'right',
         position: 'fixed',
-        left: 190,
+        left: 230,
         bottom: 110,
       }}>
-        Using this application, you can find out information about all exoplanets NASA has collected data on, whether it be the name or mass of a planet!
+        Using this application, you can find information about all of the exoplanets NASA has collected data on, whether it be the name, mass, or orbital period of a planet!
       </div>
       <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/3D_Saturn.png"
         height="80"

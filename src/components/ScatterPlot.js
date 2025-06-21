@@ -40,7 +40,7 @@ function ScatterPlot() {
                 'rgba(130, 165, 209)',
                 'rgba(130, 209, 172)'
                ],
-               pointRadius: 5,
+               pointRadius: 10,
             },
         ],
         
